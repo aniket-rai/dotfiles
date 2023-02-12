@@ -5,7 +5,7 @@ echo "-- Starting shell personalisation"
 echo "-- Installing Fish"
 sudo apt-get update
 sudo apt-get install -y fish
-sudo chsh -s /usr/bin/fish $USER
+sudo chsh -s /usr/bin/bash $USER
 
 echo "-- Installing Starship"
 curl -sS https://starship.rs/install.sh > install-starship.sh
