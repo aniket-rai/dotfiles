@@ -1,3 +1,4 @@
+export JAVA_HOME="$(/usr/libexec/java_home -v 17)"
 export PATH="$PATH:/Users/arai/Library/Application Support/JetBrains/Toolbox/scripts"
 
 export MAGE_USE_KEYCHAIN="true"

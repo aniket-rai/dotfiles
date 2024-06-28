@@ -67,8 +67,6 @@ source ${HOME}/.util/dev_aliases.zsh
 source ${HOME}/.util/hashideploy_aliases.zsh
 
 # Environment variables
-export XDG_CONFIG_HOME="$HOME/.config"
-export JAVA_HOME="$(/usr/libexec/java_home -v 21)"
 source $HOME/.util/dev_vars.zsh
 source $HOME/.util/secrets.zsh
 
